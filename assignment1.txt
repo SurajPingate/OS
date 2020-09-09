@@ -182,24 +182,49 @@ ans
 ans     ls
 
 11.	Try moving copied_dir to outside of a
-Ans	
+Ans	permission denied for hidden file,data.txt file
+
 12.	Try moving data directory outside of a
+Ans	mv a/b/data/ a
+
 13.	Now change the owner of the directory a to root
+Ans	sudo chmod
+
 14.	Change permission of a to read write and executable to only user
+Ans	chmod o+rwx a
+
 15.	Try creating directory sample inside a
+Ans	mkdir sample
+
 16.	Create directory x outside a
+Ans	mkdir x
+
 17.	Try moving x inside a
+Ans	mv  x a
 
 18.	Create directory movies
 Ans	mkdir movies
 
 19.	Change group of movies to sudo
+
+
 20.	Change group of movies to avahi
+
+
 21.	Try changing permission after changing ownership to root
+Ans	chmod a=rwx a
+
 22.	Try Changing permission after changing group to sudo without sudo
+
+
 23.	Try Changing owner and group both to root
+
+
 24.	Try changinging permission
+
+
 25.	Try deleting the file
+Ans	rm b.txt
 
 	
 	
